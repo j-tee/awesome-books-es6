@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header id="navbar">
+        <h5>Awesome Books</h5>
+        <nav>
+          <ul>
+            <li><a id="book-list-lnk">List</a></li>
+            <li><a id="formfields-lnk">Add New</a></li>
+            <li><a id="contact-lnk">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <span id="datetime" datetime=""></span>
+      <section id="book-list" class="">
+        <header>
+          <h2>All Books List</h2>
+        </header>
+        <ul>
+        </ul>
+      </section>
+      <section id="formfields" class="hide">
+        <h2>Add a new book</h2>
+          <form name="book" method="post">
+            <fieldset>
+              <label>
+                <input name="title" type="text" placeholder="Title" >
+              </label>
+              <label>
+                <input name="author" type="text" placeholder="Author" >
+              </label>
+            </fieldset>
+            <button class="add-btn" name="btn-add" type="submit">Add</button>
+          </form>
+      </section>
+      <section id="contact" class="hide">
+        <header>
+          <h2>Contact Information</h2>
+        </header>
+        <p>Do you have any question?
+          <br> <br>You can contact us on:
+          <ul>
+            <li>our e-mail: email@gmail.com</li>
+            <li>our phone: 00567512546</li>
+            <li>our address: streetname 1547, city country</li>
+          </ul>
+        </p>
+      </section>
+      <footer>
+        Copyrights 2022
+      </footer>
+      <script src="./index.js"></script>
 </body>
 </html>

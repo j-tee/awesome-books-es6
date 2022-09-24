@@ -1,0 +1,158 @@
+/* stylelint-disable no-descending-specificity */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 15px;
+  }
+  
+  .hide {
+    display: none !important;
+  }
+  
+  section {
+    padding-top: 75px;
+    min-height: 75vh;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 5px 5px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    align-items: center;
+  }
+  
+  #navbar h5 {
+    font-size: 1.3rem;
+    margin-left: 5px;
+  }
+  
+  #navbar nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  #navbar nav ul li {
+    padding: 0 8px 0 8px;
+  }
+  
+  #navbar nav ul li:nth-child(2) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  
+  #navbar nav a {
+    cursor: pointer;
+  }
+  
+  #navbar nav a:hover {
+    color: #3f3f3f;
+  }
+  
+  #datetime {
+    position: absolute;
+    top: 65px;
+    right: 15px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  #book-list ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  #book-list ul {
+    list-style: none;
+    margin: 15px 0;
+    border: 2px solid black;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  #formfields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  form fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form fieldset input {
+    width: 250px;
+    padding: 5px 2px;
+  }
+  
+  .add-btn {
+    width: 5rem;
+    height: 2rem;
+    align-self: flex-end;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  form input {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  #book-list ul li:nth-child(even) {
+    background-color: grey;
+  }
+  
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact ul {
+    width: 200px;
+    margin-top: 25px;
+  }
+  
+  footer {
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin-top: 15px;
+  }
+  
