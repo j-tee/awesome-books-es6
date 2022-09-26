@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author 1**
 
 - GitHub: [@j-tee](https://github.com/j-tee)
-- Twitter: [@JuliusTee](https://twitter.com/ouass_amine)
+- Twitter: [@JuliusTee](https://twitter.com/JuliusTee)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/julius-tetteh-0121ab7b)
 
 
