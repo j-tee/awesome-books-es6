@@ -10,6 +10,9 @@
 - HTML 5 / Css 3
 - Javascript
 
+## Live Demo
+
+Check [the live version]( https://j-tee.github.io/awesome-books-es6/) of this project.
 
 ## Getting Started
 
